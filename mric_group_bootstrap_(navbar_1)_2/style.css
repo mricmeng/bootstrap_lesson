@@ -1,10 +1,25 @@
+body{
+    margin: 0;
+}
 .container{
-    width: 90%px;
-    margin: auto;
-    background-color:blue;
+    width: 100%;
+    float: left;
+    background-color: orangered;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.container ul li {
+    float: left;
+}
+.container ul li a{
+    display: block;
     color: white;
-    font-size: 50px;
-    text-align: right;
+    padding: 20px;
+    text-decoration: none;
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -26,10 +41,10 @@
 /*Extra small devices(portrait phones, less than 576px) */
 @media (max-width:575.98px){
     .container{
-        background-color: orange;
         font-size: 15px;
         text-align: center;
         padding: 20px;
+        background-color: orange;
     }
 }
 

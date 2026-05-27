@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    float: left;
+    background-color: orangered;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.container ul li {
+    float: left;
+}
+.container ul li a{
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.phone-menu {
+    width: 100%;
+    float: left;
+    background-color: black;
+    display: none;
+}
+.phone-menu ul li{
+    float: left;
+}
+.phone-menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
+.phone-menu ul li a:hover{
+    background-color: brown;
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+
+}
+/*Large devices(desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199.98px){
+
+}
+/*Medium devices(tablets, 768px and up) */
+@media (min-width:768px) and (max-width:991.98px){
+
+}
+/*Small devices(landscape phone, 576px and up) */
+@media (min-width:576px) and (max-width:768.98px){
+
+}
+/*Extra small devices(portrait phones, less than 576px) */
+@media (max-width:575.98px){
+    .phone-menu {
+        display: block;
+    }
+    .container{
+        display: none;
+    }
+}
+
+
