@@ -15,12 +15,44 @@ ul{
 }
 .bar1{
     background-color: black;
+    padding: 15px;
 }
 .logo img {
     height: 90px;
 }
 .ads-1 img{
     height: 90px;
+    float: right;
+}
+.bar2{
+    background-color: black;
+    display: none;
+}
+.phone-bar ul li{
+    float: left;
+}
+.phone-bar ul li.btn-menu {
+    width: 10%;
+    padding-left: 10px;
+}
+.phone-bar ul li.logo{
+    width: 80%;
+    text-align: center;
+}
+.phone-bar ul li.ads2{
+    width: 10%;   
+}
+.phone-bar ul li.ads2 img{
+    float: right;
+}
+.phone-bar ul li a{
+    color: white;
+}
+.phone-bar ul li a i{
+    font-size: 28px;
+}
+.phone-bar ul li a img{
+    height: 20px;
 }
 
 
@@ -32,19 +64,36 @@ ul{
 }
 /*Large devices(desktops, 992px and up) */
 @media (min-width: 992px) and (max-width:1199.98px){
-
+    .logo img, .ads-1 img{
+        height: 80px;
+    }
+    /* .ads-1 img{
+        height: 80px;
+    } */
 }
 /*Medium devices(tablets, 768px and up) */
 @media (min-width:768px) and (max-width:991.98px){
-
+    .logo img, .ads-1 img{
+        height: 60px;
+    }
 }
 /*Small devices(landscape phone, 576px and up) */
 @media (min-width:576px) and (max-width:768.98px){
-
+    .bar1 {
+        display: none;
+    }
+    .bar2{
+        display: block;
+    }
 }
 /*Extra small devices(portrait phones, less than 576px) */
 @media (max-width:575.98px){
-    
+    .bar1 {
+        display: none;
+    }
+    .bar2{
+        display: block;
+    }
 }
 
 
