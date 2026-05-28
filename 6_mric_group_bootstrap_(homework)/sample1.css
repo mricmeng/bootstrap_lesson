@@ -82,33 +82,6 @@ h1,p{
     border-radius: 4px;
     box-shadow: 1px 1px 3px 0 #ccc;
 }
-.footer-bar {
-    margin-top: 30px;
-}
-.footer-bar{
-    background-color: teal;
-}
-.footer-bar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /* float: right; */
-    /* (@ uncomment) */
-    text-align: center
-}
-.footer-bar ul li {
-    /* float: left; */
-    /* Showing display center/
-    /* (@ uncomment */
-    display:inline-block;
-}
-.footer-bar ul li a {
-    display: block;
-    text-decoration: none;
-    padding: 20px;
-    color: #fff;
-
-}
 
 
 
