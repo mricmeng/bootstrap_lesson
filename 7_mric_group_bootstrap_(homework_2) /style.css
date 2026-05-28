@@ -54,6 +54,26 @@ ul{
 .phone-bar ul li a img{
     height: 20px;
 }
+.menu-bar{
+    background-color: orange;
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: "Battambang", system-ui;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+.menu ul li a:hover{
+    color: black;
+}
+
 
 
 
@@ -85,6 +105,9 @@ ul{
     .bar2{
         display: block;
     }
+    .menu-bar{
+        display: none;
+    }
 }
 /*Extra small devices(portrait phones, less than 576px) */
 @media (max-width:575.98px){
@@ -93,6 +116,9 @@ ul{
     }
     .bar2{
         display: block;
+    }
+    .menu-bar{
+        display: none;
     }
 }
 
