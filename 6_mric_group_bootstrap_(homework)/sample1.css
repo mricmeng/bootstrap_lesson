@@ -83,6 +83,17 @@ h1,p{
     box-shadow: 1px 1px 3px 0 #ccc;
 }
 
+.footer-box {
+    width: 100%;
+    background-color: teal;
+    float: left;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+    height: 100px;
+    color: #fff;
+}
+
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px){
     .item-box .img-box {
@@ -140,9 +151,7 @@ h1,p{
     }
     .item-box .txt-box p {
         font-size: 13px;
-    }
-    
-    
+    } 
 }
 /*Extra small devices(portrait phones, less than 576px) */
 @media (max-width:575.98px){
