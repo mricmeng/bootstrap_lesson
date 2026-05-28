@@ -71,7 +71,26 @@ ul{
 
 }
 .menu ul li a:hover{
-    color: black;
+    color: rgb(255, 225, 0);
+}
+.slide-box{
+    margin-top: 10px;
+}
+.slide-box .box1{
+    height: 440px;
+    padding-right: 10px;
+}
+.slide-box .box1 .box1-1{
+    width: 60%;
+    height: 50%;
+    float: left;
+    background-color: pink;
+}
+.slide-box .box1 .box1-2{
+    width: 40%;
+    height: 50%;
+    float: left;
+    background-color: plum;
 }
 
 
