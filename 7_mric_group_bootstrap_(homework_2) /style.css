@@ -194,6 +194,21 @@ ul{
     font-size: 18px;
     padding-left: 10px;
 }
+.footer-bar{
+    background-color: black;
+    margin-top: 20px;
+}
+.footer{
+    padding: 20px;
+}
+.footer h1{
+    font-size: 22px;
+    color: grey;   
+}
+.footer p{
+    font-size: 18px;
+    color: #ccc;
+}
 
 
 
