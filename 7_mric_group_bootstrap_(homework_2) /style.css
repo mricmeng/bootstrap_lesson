@@ -13,6 +13,11 @@ div{
 ul{
     list-style-type: none;
 }
+.bg-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bar1{
     background-color: black;
     padding: 15px;
@@ -85,12 +90,49 @@ ul{
     height: 50%;
     float: left;
     background-color: pink;
+    position: relative;
 }
 .slide-box .box1 .box1-2{
     width: 40%;
     height: 50%;
     float: left;
     background-color: plum;
+    position: relative;
+}
+.slide-box .box1 h1{
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 1px 2px 3px #333;
+    font-family:"Battambang", system-ui ;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    padding: 10px;
+    background-color: rgb(0, 0, 0,0.5);
+    line-height: 23px;
+}
+.slide-box .box2{
+    height: 440px;
+    padding: 0px;
+}
+.slide-box .box2 ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.slide-box .box2 ul li{
+    background-color: rgb(243, 11, 11);
+    width: 100%;
+    float: left;
+    height: 49.5%;
+}
+.slide-box .box2 ul li:last-child{
+    margin-top: 2%;
+}
+.slide-box .box2 ul li a img{
+    width: 100%;
+    height: 100%;
+    float: left;
 }
 
 
@@ -109,11 +151,26 @@ ul{
     /* .ads-1 img{
         height: 80px;
     } */
+    
 }
 /*Medium devices(tablets, 768px and up) */
 @media (min-width:768px) and (max-width:991.98px){
     .logo img, .ads-1 img{
         height: 60px;
+    }
+    .slide-box .box1 .box1-1{
+    width: 50%;
+    }
+    .slide-box .box1 .box1-2{
+    width: 50%;
+    }
+    .slide-box .box1, .slide-box .box2{
+        height: 380px;
+    }
+    }
+    .slide-box .box1 h1{
+        font-size: 13px;
+        line-height: 20px;
     }
 }
 /*Small devices(landscape phone, 576px and up) */
@@ -127,6 +184,27 @@ ul{
     .menu-bar{
         display: none;
     }
+    .slide-box .box2{
+        display: none;
+    }
+    .slide-box .box1{
+        height: 340px;
+        padding: 0;
+    }
+    .slide-box .box1 .box1-1{
+    width: 50%;  
+    }
+    .slide-box .box1 .box1-2{
+        width: 50%;
+    }
+    .slide-box{
+        max-width: 100%;
+        background-color: teal;
+    }
+    .slide-box .box1 h1{
+        font-size: 13px;
+        line-height: 20px;
+    }
 }
 /*Extra small devices(portrait phones, less than 576px) */
 @media (max-width:575.98px){
@@ -138,6 +216,28 @@ ul{
     }
     .menu-bar{
         display: none;
+    }
+    .slide-box .box2{
+        display: none;
+    }
+     .slide-box .box1 .box1-1{
+    width: 50%;  
+    }
+    .slide-box .box1{
+        padding: 0;
+        height: 300px;
+    }
+    .slide-box .box1 .box1-2{
+        width: 50%;
+    }
+    .slide-box{
+        max-width: 100%;
+        background-color: teal;
+    }
+    
+    .slide-box .box1 h1{
+        font-size: 11px;
+        line-height: 20px;
     }
 }
 
